@@ -45,12 +45,6 @@ class FamilyStructure:
         return None
 
     def delete_member(self, id):
-        #for position in range(len(self._members)-1):
-        #    if self._members[position]["id"] == id:
-        #        self._members.pop(position)
-            #else:
-            #    raise Exception("Member not found")
-        #return None
         status = False
         for i, item in enumerate(self._members, start=0):
             if item["id"] == id:
